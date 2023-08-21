@@ -194,22 +194,27 @@
             </div>
         </section>
         <section id="Contact">
-            <img src="./img/contacto.jpg" alt="">
-            <form action="">
-                <h4>Consulta</h4>
-                <h2>Completa el formulario</h2>
-                <label for="nombre">Nombre y apellido:</label>
-                <input type="text" id="nombre" name="nombre" required>        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="consulta">Consulta:</label>
-                <textarea id="consulta" name="consulta" rows="4" cols="50" required></textarea>
-                <button type="submit">Enviar Consulta</button>
-                <label for=""></label>
-            </form>
+            <article class="contact-img">
+                <img src="./img/contacto.jpg" alt="">
+            </article>
+            <article class="contact-form" >
+                <form class="form">
+                        <h4>Consulta</h4>
+                        <h2>Completa el formulario</h2>
+                        <div class="Contact-Info form__field">
+                            <input type="text" placeholder="Inserte su nombre" class="form__field" name="name" id='name' required >
+                            <input type="text" placeholder="Inserte su Email" class="form__field" name="email" id='email' required >
+                        </div>
+                        <div class="Contact-Submit">
+                            <textarea class="form_area" placeholder="Inserte su consulta" name="" id="" cols="30" rows="10"></textarea>
+                            <button class="form-button" type="submit">Enviar Consulta</button>
+                        </div>
+                </form>
+
+            </article>
         </section>
         <section id="Team">
-            <article>
+            <article class="team-article">
                 <h4>Nuestro Equipo</h4>
                 <h2>Conoce a nuestros cheff</h2>
                 <ul>
