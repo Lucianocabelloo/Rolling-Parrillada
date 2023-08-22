@@ -5,10 +5,25 @@
 
 /*  navbar Styles */
 
+html{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
 body{
     background-color: #f1f8ff;
+    overflow-x: hidden;
 }
 
+h2 h3{
+font-family: 'Anton', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    font-family: 'Yellowtail', cursive;
+}
 
 nav{
     display: flex;
@@ -17,6 +32,11 @@ nav{
     background-color: #0f172b;
     color: #f1f8ff;
     padding: 50px;
+    font-size: 20px;
+}
+
+.nav-Logo h3{
+    display: flex;
 }
 
 .nav-Links ul{
@@ -29,11 +49,19 @@ nav{
 .nav-Links li a {
     text-decoration: none;
     color: #f1f8ff;
+    opacity: 1;
+transition: opacity 1s ease 0s;
+
+}
+
+.nav-Links li a:hover{
+    opacity: 0.6;
+    border-bottom: 2px solid #fea116;
+    transition: opacity 1s ease 0s;
 }
 
 /* Header Styles */
 
-  
 
 .header-Info {
     height: 60vh;
@@ -317,6 +345,12 @@ h4{
     box-shadow: 6px 6px 12px -3px rgba(0,0,0,0.72);
 -webkit-box-shadow: 6px 6px 12px -3px rgba(0,0,0,0.72);
 -moz-box-shadow: 6px 6px 12px -3px rgba(0,0,0,0.72);
+opacity: 1;
+transition: opacity ease 0.4s;
+  }
+
+  .form-button:hover{
+    opacity: 0.6;
   }
 
 
@@ -361,6 +395,11 @@ h4{
     
  }
 
+ footer div{
+    padding: 20px 0px;
+    text-align: center;
+ }
+
  footer h3{
     color: #fea116;
     font-size: 32px;
@@ -376,7 +415,19 @@ h4{
     font-size: 20px;
  }
 
+ .network{
+    display: flex;
+    flex-direction: row;
+ }
+
  footer ul li a{
     text-decoration: none;
     color: white;
+    opacity: 1;
+    transition: 1s ease;
  }
+
+ footer ul li a:hover{
+    opacity: 0.4;
+ }
+
