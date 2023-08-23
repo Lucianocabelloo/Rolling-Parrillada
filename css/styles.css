@@ -448,7 +448,7 @@ transition: opacity ease 0.4s;
     }
 
     nav ul{
-        gap: 8px !important;
+        gap: 6px !important;
     }
 
     .header-Info{
@@ -486,7 +486,9 @@ transition: opacity ease 0.4s;
     .about{
         display: flex;
         flex-direction: column;
-        width: 0ch;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
     }
 
     .about-gallery{
@@ -505,12 +507,13 @@ transition: opacity ease 0.4s;
     }
 
     .about-info{
-        align-items: flex-start;
+        align-items: center;
         width: 80%;
     }
 
     .about-info p {
         text-align: center;
+        width: 20ch;
     }
     
 
