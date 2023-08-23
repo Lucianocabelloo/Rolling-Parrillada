@@ -442,6 +442,15 @@ transition: opacity ease 0.4s;
 
  @media (max-width: 767px) {
 
+    nav{
+        gap: 0;
+        flex-direction: column;
+    }
+
+    nav ul{
+        gap: 8px !important;
+    }
+
     .header-Info{
         align-items: flex-start;
         padding: 8px;
@@ -563,6 +572,11 @@ transition: opacity ease 0.4s;
   }
   @media (max-width: 1024px) {
 
+    nav{
+        gap: 0;
+        flex-direction: column;
+    }
+
     #Services{
         flex-wrap: wrap;
         gap: 16px;
@@ -620,6 +634,12 @@ transition: opacity ease 0.4s;
   }
 
   @media (max-width: 1448px) {
+
+
+    nav{
+        flex-direction: row;
+        gap: 400px;
+    }
 
     #Services{
         flex-wrap: wrap;
