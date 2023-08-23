@@ -440,7 +440,7 @@ transition: opacity ease 0.4s;
 
  /* Media Querys */
 
- @media (min-width: 360px) and (max-width: 767px) {
+ @media (min-width: 350px) and (max-width: 767px) {
 
     nav{
         gap: 0 !important;
