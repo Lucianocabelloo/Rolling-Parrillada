@@ -451,6 +451,10 @@ transition: opacity ease 0.4s;
         gap: 6px !important;
     }
 
+    header{
+        margin-top: 10vh;
+    }
+
     .header-Info{
         align-items: flex-start;
         padding: 8px;
