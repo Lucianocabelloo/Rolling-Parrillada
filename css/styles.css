@@ -502,7 +502,6 @@ transition: opacity ease 0.4s;
         display: flex;
         flex-direction: column;
         margin: auto;
-        margin-left: 25px;
         
     }
 
