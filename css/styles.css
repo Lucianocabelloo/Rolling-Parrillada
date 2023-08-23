@@ -584,6 +584,10 @@ transition: opacity ease 0.4s;
         flex-direction: column;
     }
 
+    .header-Info p{
+        width: 100%;
+    }
+
     #Services{
         flex-wrap: wrap;
         gap: 16px;
